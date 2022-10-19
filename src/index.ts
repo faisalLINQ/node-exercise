@@ -8,6 +8,7 @@ interface IAccount {
 export class Account {
   public name: string
   public subAccounts: SubAccount[]
+  
   constructor (account: IAccount) {
     this.name = account.name
     this.subAccounts = account.subAccounts
